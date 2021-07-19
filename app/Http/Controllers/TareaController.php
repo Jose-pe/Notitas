@@ -100,7 +100,7 @@ class TareaController extends Controller
         ]);
 
         Tarea::whereId($id)->update($datosvalidados);
-        return redirect('home')->with('mensaje', 'Notita Modificada con Exito');
+        return redirect('home')->with('mensaje', 'Notita modificada con Exito');
     }
 
     /**
